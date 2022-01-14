@@ -1,0 +1,19 @@
+{
+    "name": "script-starter-template",
+    "private": true,
+    "version": "1.0.0",
+    "description": "A starter template for quickly creating Meraki scripts",
+    "author": "Patrick Organ <patrick@permafrost.dev>",
+    "license": "MIT",
+    "scripts": {
+        "test": "exit 0",
+        "build": "exit 0",
+        "serve": "exit 0"
+    },
+    "devDependencies": {
+        "prettier": "^2.5.1"
+    },
+    "dependencies": {
+        "meraki-js-sdk": "^1.0"
+    }
+}
