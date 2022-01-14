@@ -8,6 +8,16 @@
 npm install
 ```
 
+## Create Bundle
+
+To bundle your project's source code into a zip archive for submission to Meraki for review:
+
+```bash
+npm run bundle
+```
+
+You may then submit the `project.zip` file that is created to Meraki.
+
 ## Testing
 
 `script-starter-template` uses Jest for unit tests.  To run the test suite:
