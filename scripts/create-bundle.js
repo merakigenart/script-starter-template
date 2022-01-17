@@ -4,12 +4,13 @@ const archiver = require('archiver');
 const output = fs.createWriteStream(__dirname + '/../project.zip');
 
 const archive = archiver('zip', {
-    zlib: { level: 5 } // Sets the compression level.
+    zlib: { level: 9 } // Sets the compression level.
 });
 
 output.on('close', function() {
-    console.log(archive.pointer() + ' total bytes');
-    console.log('archiver has been finalized and the output file descriptor has closed.');
+    const size = (archive.pointer() / 1024).toFixed(2) + ' kb';
+
+    console.log(`created project.zip for submission (${size}).`);
 });
 
 archive.on('warning', function(err) {
@@ -26,9 +27,9 @@ archive.on('error', function(err) {
 
 archive.pipe(output);
 
-//archive.file(__dirname + '/../src/Script.js', { name: 'Script.js' });
-//archive.file(__dirname + '/../src/ScriptTraits.js', { name: 'ScriptTraits.js' });
+archive.file(__dirname + '/../src/Script.js', { name: 'Script.js' });
+archive.file(__dirname + '/../src/ScriptTraits.js', { name: 'ScriptTraits.js' });
 
-archive.directory(__dirname + '/../src/', 'src');
+//archive.directory(__dirname + '/../src/', 'src');
 
 archive.finalize();

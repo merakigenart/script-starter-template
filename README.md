@@ -16,7 +16,9 @@ To bundle your project's source code into a zip archive for submission to Meraki
 npm run bundle
 ```
 
-You may then submit the `project.zip` file that is created.
+You may then submit the newly created `project.zip` file on the Meraki project dashboard:
+
+
 
 ## Testing
 
