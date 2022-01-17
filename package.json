@@ -7,7 +7,9 @@
     "license": "MIT",
     "scripts": {
         "bundle": "node scripts/create-bundle.js",
-        "serve": "esbuild ./src/index.js --bundle --servedir=html --outdir=html/js --target=es2015 --external:meraki-js-sdk"
+        "serve": "esbuild ./src/index.js --bundle --servedir=html --outdir=html/js --target=es2015 --external:meraki-js-sdk",
+        "check:script": "meraki-cli check ./src/Script.js",
+        "check:traits": "meraki-cli check ./src/ScriptTraits.js"
     },
     "devDependencies": {
         "archiver": "^5.3.0",
