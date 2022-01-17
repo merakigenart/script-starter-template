@@ -1,3 +1,7 @@
+<p align="center">
+    <img style="width: 350px;" src="https://repository-images.githubusercontent.com/448071637/0d3befa7-1dfe-42b6-b360-637a9b00202a" alt="" />
+</p>
+
 # Meraki Script Starter Template
 
 This template can be used to get started developing a Script for Meraki quickly and easily.
