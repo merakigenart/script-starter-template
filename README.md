@@ -1,6 +1,6 @@
 # Meraki Script Starter Template
 
----
+This template can be used to get started developing a Script for Meraki quickly and easily.
 
 ## Setup
 
@@ -8,9 +8,19 @@
 npm install
 ```
 
-## Create Bundle
+## Preview Your Work
 
-To bundle your project's source code into a zip archive for submission to Meraki for review:
+To start a web server that will display the current rendering of your script, run:
+
+```bash
+npm run serve
+```
+
+Open the url output by the command in your browser to view your rendered image.
+
+## Bundle Your Work
+
+To bundle your project's source code into a zip archive for submission to Meraki:
 
 ```bash
 npm run bundle
@@ -19,6 +29,8 @@ npm run bundle
 You may then submit the newly created `project.zip` file on the Meraki project dashboard:
 
 ![image](https://user-images.githubusercontent.com/5508707/149684950-a04fa8ac-2889-4907-9f88-70b3f3cfe31c.png)
+
+Uploading the file does not submit it for review - it simply
 
 ## Testing
 
