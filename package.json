@@ -6,14 +6,11 @@
     "author": "Patrick Organ <patrick@permafrost.dev>",
     "license": "MIT",
     "scripts": {
-        "test": "exit 0",
-        "build": "exit 0",
         "bundle": "node scripts/create-bundle.js",
-        "serve": "esbuild ./src/index.* --bundle --servedir=html --outdir=html/js --target=es2015"
+        "serve": "esbuild ./src/index.js --bundle --servedir=html --outdir=html/js --target=es2015 --external:meraki-js-sdk"
     },
     "devDependencies": {
         "archiver": "^5.3.0",
-        "esbuild": "^0.14.11",
-        "prettier": "^2.5.1"
+        "esbuild": "^0.14.11"
     }
 }
