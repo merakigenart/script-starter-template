@@ -34,6 +34,11 @@ and for your `ScriptTraits.js` file:
 npm run check:traits
 ```
 
+You should see output similiar to the following:
+
+![image](https://user-images.githubusercontent.com/5508707/149796322-87a7788d-3553-4efe-84f1-78e12af30413.png)
+
+
 ## Previewing Your Work
 
 To start a web server that will display the current rendering of your script, run:
