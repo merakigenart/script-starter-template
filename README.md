@@ -18,7 +18,7 @@ npm run bundle
 
 You may then submit the newly created `project.zip` file on the Meraki project dashboard:
 
-
+![image](https://user-images.githubusercontent.com/5508707/149684950-a04fa8ac-2889-4907-9f88-70b3f3cfe31c.png)
 
 ## Testing
 
