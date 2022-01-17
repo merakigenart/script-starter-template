@@ -18,6 +18,22 @@ To get started, you need to install the project dependencies:
 npm install
 ```
 
+## Checking Your Script
+
+To enhance your development experience, Meraki provides a web service that validates your scripts.
+
+To run the script checks on your `Script.js` file:
+
+```bash
+npm run check:script
+```
+
+and for your `ScriptTraits.js` file:
+
+```bash
+npm run check:traits
+```
+
 ## Previewing Your Work
 
 To start a web server that will display the current rendering of your script, run:
