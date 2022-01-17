@@ -11,6 +11,7 @@
     },
     "devDependencies": {
         "archiver": "^5.3.0",
-        "esbuild": "^0.14.11"
+        "esbuild": "^0.14.11",
+        "meraki-cli": "^1.0.0"
     }
 }
