@@ -1,5 +1,3 @@
-import { MerakiScript } from 'meraki-js-sdk/sdk';
-
 export class Script extends MerakiScript {
     execute() {
         // TODO: add p5 setup() code
@@ -28,5 +26,12 @@ export class Script extends MerakiScript {
                 version: '1.4.0',
             }
         }
+    }
+    
+    traits() {
+        //ScriptTraits is automatically imported
+        const traits = new ScriptTraits();
+        
+        return { color: Meraki.random.element(traits.color()) };
     }
 }
