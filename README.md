@@ -33,7 +33,7 @@ You may then submit the newly created `project.zip` file on the Meraki project d
 
 ![image](https://user-images.githubusercontent.com/5508707/149684950-a04fa8ac-2889-4907-9f88-70b3f3cfe31c.png)
 
-Uploading the file does not submit it for review - it simply
+Uploading the file does not submit it for review - it streamlines the process of getting your code into the platform, where they can be edited, rendered and submitted for review.
 
 ## Testing
 
