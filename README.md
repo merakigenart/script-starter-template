@@ -26,6 +26,9 @@ To bundle your project's source code into a zip archive for submission to Meraki
 npm run bundle
 ```
 
+![image](https://user-images.githubusercontent.com/5508707/149685539-105fd57e-ff4a-4511-9aa1-91e49d9458f4.png)
+
+
 You may then submit the newly created `project.zip` file on the Meraki project dashboard:
 
 ![image](https://user-images.githubusercontent.com/5508707/149684950-a04fa8ac-2889-4907-9f88-70b3f3cfe31c.png)
