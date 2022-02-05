@@ -4,11 +4,11 @@
 
 # Meraki Script Starter Template
 
-This template can be used to get started developing a Script for Meraki quickly and easily.
+This template is designed to get you developing a Script for Meraki as quickly as possible.
 
 Your project must contain at least two files - `Script.js` and `ScriptTraits.js`.  See the [SDK documentation](https://github.com/merakigenart/meraki-js-sdk/blob/main/README.md) for more a comprehensive description of the requirements when using the SDK.
 
-To get started, run the setup command below and you can jump right into developing a P5.js script using our SDK.
+To get started, run the setup command below and you can jump right into developing a P5.js, three.js, or plain javascript script for Meraki using our SDK.
 
 ## Setup
 
@@ -34,7 +34,7 @@ and for your `ScriptTraits.js` file:
 npm run check:traits
 ```
 
-You should see output similiar to the following:
+You should see output similar to the following:
 
 ![image](https://user-images.githubusercontent.com/5508707/149796322-87a7788d-3553-4efe-84f1-78e12af30413.png)
 
